@@ -16,7 +16,7 @@ class TodoController extends Controller
     public function index()
     {
         $todo = Todo::all();
-        return response()->json($todo,200);
+        return response()->json($todo, 200);
     }
 
     /**
@@ -28,7 +28,7 @@ class TodoController extends Controller
     public function store(Request $request)
     {
         $todo = Todo::create($request->all());
-        return response()->json($todo,200);
+        return response()->json($todo, 200);
     }
 
     /**
@@ -40,7 +40,7 @@ class TodoController extends Controller
     public function show($id)
     {
         $todo = Todo::findOrFail($id);
-        return response()->json($todo,200);
+        return response()->json($todo, 200);
     }
 
     /**
@@ -54,7 +54,7 @@ class TodoController extends Controller
     {
         $todo = Todo::findOrFail($id);
         $todo->update($request->all());
-        return response()->json($todo,200);
+        return response()->json($todo, 200);
     }
 
     /**
