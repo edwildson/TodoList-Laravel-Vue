@@ -1,2 +1,2 @@
 # TodoList-Laravel-Vue
-TodoList feito em Laravel + Vue + Docker + Kool para aprendizagem
+TodoList feito em Laravel + Vue + Docker + PostgreSQL + Redis + Kool para aprendizagem.
