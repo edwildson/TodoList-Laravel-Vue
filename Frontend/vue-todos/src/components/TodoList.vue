@@ -1,7 +1,7 @@
 <template>
     <el-row>
         <el-col :span="12" :offset="7" style="width: 100%">
-            <h1>TodoList - LARAVUE</h1>
+            <h1>TodoList - LARAVUE com Docker, kool, postegreSQL, Element</h1>
             <TodoForm @send-message="createTodo"/>
             <el-table :data="todos">
                 <el-table-column prop="title" label="Título" width="350" />
